@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TN Predictive Model 234 | Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f5f7fa;
+      color: #111;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1d3557;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #457b9d;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #1d3557;
+    }
+
+    .embed-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .embed-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    footer {
+      background: #1d3557;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>TN Predictive Model 234</h1>
+    <p>Trend Analysis Dashboard of Tamil Nadu Assembly Elections</p>
+  </header>
+
+  <nav>
+    <a href="#tableau1">Dashboard S1</a>
+    <a href="#tableau2">Dashboard S2</a>
+    <a href="#sheets">Sheets Visuals</a>
+  </nav>
+
+  <section id="tableau1">
+    <h2>📊 Tableau Dashboard - S1</h2>
+    <div class="embed-container">
+      <iframe src="https://public.tableau.com/views/TN_Trends1/TNOverviewS1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link"></iframe>
+    </div>
+  </section>
+
+  <section id="tableau2">
+    <h2>📊 Tableau Dashboard - S2</h2>
+    <div class="embed-container">
+      <iframe src="https://public.tableau.com/views/TN_Trends2/TNOverviewS2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link"></iframe>
+    </div>
+  </section>
+
+  <section id="sheets">
+    <h2>📑 Google Sheets Visuals</h2>
+    <div class="embed-container">
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQid1QT6Z5NF3uizu9hH1YqgULcJGklMIEocYkt-cu4yG93Jo1kyHijUF6sBZ0tSApSSixRuV2knDxu/pubhtml?gid=1659812259&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    Made with ❤️ by Bharath | Powered by Vercel | TN Trends 2025
+  </footer>
+</body>
+
+</html>
